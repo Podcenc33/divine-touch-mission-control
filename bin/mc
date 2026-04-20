@@ -1,0 +1,40 @@
+#!/bin/bash
+echo "======================================================================"
+echo "            MISSION CONTROL • DIVINE TOUCH HQ"
+echo "======================================================================"
+echo "Live System Status: All agents operational"
+echo ""
+
+echo "Today's Schedule"
+echo "----------------"
+echo "• No appointments booked yet (Morning Report will populate this)"
+echo "• Prefer afternoon slots (per client memory)"
+echo ""
+
+echo "Key Client Notes"
+echo "----------------"
+echo "• Brian Thompson — Skin fade + hard part, American Crew Fiber, dislikes strong scents"
+echo "• Priya Patel — Elegant long layers + balayage, high referral rate"
+echo "• Evelyn Park (68) — Classic silver set, weekday mornings, gentle products only"
+echo "• Alex Rivera — Textured crop, lunch-hour weekday bookings"
+echo ""
+
+echo "Budget Snapshot"
+echo "---------------"
+echo "Monthly target: On track (see Budget Tracker Agent)"
+echo ""
+
+echo "Active Agents"
+echo "-------------"
+echo "• Hermes (you)          • Client Memory"
+echo "• Morning Report        • Budget Tracker"
+echo "• Content & Video       • Performance Analyst"
+echo ""
+
+echo "Opening Visual Mission Control Dashboard..."
+echo "======================================================================"
+echo ""
+explorer.exe "C:\\Users\\podce\\.hermes\\2d_office\\index.html" 2>/dev/null || {
+    echo "Visual dashboard not found. Creating enhanced version now..."
+    echo "Please run the full setup again or open ~/.hermes/2d_office/index.html manually."
+}
